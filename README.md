@@ -1,6 +1,6 @@
 
 
-# One Click Deploy: Kafka + Spark Streaming + with Zeppelin UI + Zookeeper + Prometheus + Grafana + Kafka Manager
+# One Click Deploy: Kafka + Spark Streaming (DStream API) + with Zeppelin UI + Zookeeper + Prometheus + Grafana + Kafka Manager
 
 This repository contains a docker-compose stack with Kafka and Spark Streaming, together with monitoring with Kafka Manager and a Grafana Dashboard. The networking is set up so Kafka brokers can be accessed from the host.
 
@@ -66,6 +66,7 @@ To see the memory and CPU usage (which comes in handy to ensure docker has enoug
 ```
 docker stats
 ```
+P.S.: Zeppelin has all the othe requirements and dependencies 
 
 ## Accessing the notebook
 
@@ -132,5 +133,6 @@ Finally, you can access the default kafka dashboard in Grafana (username is "adm
 ![](images/grafanakafka.jpg)
 
 
-
+### Kafka-Spark Structured Streaming Code set 
+https://mtpatter.github.io/bilao/notebooks/html/01-spark-struct-stream-kafka.html
 
